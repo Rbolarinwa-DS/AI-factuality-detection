@@ -14,18 +14,21 @@ The goal of this project is to analyze AI-generated outputs and classify them ba
 AI-factuality-detection/
 
 README.md
-notebook.ipynb
-Data4Good.png
 
-data/ – dataset used for training and evaluation
-predictions/ – generated predictions from the model
+notebook.ipynb - preview of the code
+
+Data4Good.png - the competition it was used for
+
+train.json – dataset used for training and evaluation
+
+test_with_predictions.json – generated predictions from the model
 
 ---
 
 ## Dataset
 
 The dataset used in this project contains AI-generated responses labeled according to their factual accuracy.
-The data is stored inside the **data/** folder and is used for model training and evaluation.
+The data is stored inside the train.json folder and is used for model training and evaluation.
 
 ---
 
@@ -44,7 +47,7 @@ All experiments and analysis are performed inside the **notebook.ipynb** file.
 ---
 
 result
-Predictions produced by the model are saved in the **predictions/** folder.
+Predictions produced by the model are saved in the **test_with_predictions.json** folder.
 
 ---
 
@@ -54,7 +57,6 @@ Python
 Pandas
 NumPy
 Scikit-learn
-Jupyter Notebook
 
 ---
 
