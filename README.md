@@ -60,12 +60,14 @@ Scikit-learn
 
 ---
 
-GOAL
+## GOAL
 
 This project demonstrates the use of data science and machine learning techniques to analyze AI-generated text and detect factual inconsistencies.
 It serves as an exploratory step toward building systems that improve trust and reliability in AI-generated content.
 
 ---
+## License
+MIT licensed
 
 ## Author
 
